@@ -1,0 +1,30 @@
+<head>
+  <title> array_test </title>
+</head>
+
+<body>
+  {{> main}}
+</body>
+
+<template name="main">
+  <h1>Template Array Test</h1>
+  <br>
+  {{#each template}}
+    {{>templatet}}
+  {{/each}}
+  <br>
+  <h1>Data Array Test</h1>
+  <br>
+  {{#each data}}
+    {{>datat}}
+  {{/each}}
+  <a href="#" class="add_template">Add Template</a>
+  <a href="#" class="add_data">Add data</a>
+</template>
+
+<template name="datat">
+  <p>{{this.input_name}}</p>
+</template>
+<template name="an">
+  <p>hey there</p>
+</template>

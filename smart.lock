@@ -1,0 +1,21 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "npm": {},
+      "jade-handlebars-066": {}
+    },
+    "packages": {
+      "npm": {
+        "git": "https://github.com/arunoda/meteor-npm.git",
+        "tag": "v0.2.6",
+        "commit": "177ab6118de5bf8cffb19481343d5762ff7a2aaf"
+      },
+      "jade-handlebars-066": {
+        "git": "https://github.com/waitingkuo/meteor-jade-handlebars.git",
+        "tag": "v0.2.8",
+        "commit": "b0689a21b00b1a5d1e995f2d9da69a8e2ec43877"
+      }
+    }
+  }
+}
